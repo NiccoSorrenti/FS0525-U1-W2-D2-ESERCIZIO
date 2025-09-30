@@ -27,6 +27,11 @@ if (num3 !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let n1 = 25;
+
+if (n1 % 5 === 0) {
+  console.log("è divisibile per 5");
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -36,7 +41,7 @@ if (num3 !== 5) {
 let num4 = 3;
 let num5 = 9;
 
-if (num4 === 8 || num5 === 8 || num4 + num5 == 8 || num4 - num5 == 8 || num5 - num4 == 8) {
+if (num4 === 8 || num5 === 8 || num4 + num5 === 8 || num4 - num5 === 8 || num5 - num4 === 8) {
   console.log("Il valore di " + num4 + " è 8, oppure il valore di " + num5 + "è 8, oppure la somma/differenza tra " + num4 + " e " + num5 + "è 8")
 } else {
   console.log("nessun valore è uguale a 8")
@@ -49,6 +54,17 @@ if (num4 === 8 || num5 === 8 || num4 + num5 == 8 || num4 - num5 == 8 || num5 - n
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+// const totalShoppingCart = 35;
+// const shippingCost = 10;
+// let total = 0;
+
+// if (totalShoppingCart <= 50) {
+//   total = totalShoppingCart + shippingCost;
+// } else {
+//   total = totalShoppingCart;
+// }
+
+// console.log("Grazie per il tuo acquisto! Il totale da saldare è", total)
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -56,6 +72,19 @@ if (num4 === 8 || num5 === 8 || num4 + num5 == 8 || num4 - num5 == 8 || num5 - n
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const totalShoppingCart = 55;
+const shippingCost = 10;
+let total = 0;
+
+if (totalShoppingCart - totalShoppingCart * 0.2 <= 50) {
+  total = totalShoppingCart + shippingCost;
+} else {
+  total = totalShoppingCart;
+}
+
+console.log("Grazie per il tuo acquisto! Il totale da saldare è", total)
+
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
@@ -65,11 +94,31 @@ if (num4 === 8 || num5 === 8 || num4 + num5 == 8 || num4 - num5 == 8 || num5 - n
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const x1 = 5
+const x2 = 38
+const x3 = 100
+
+if (x1 > x2) {
+  
+} else {
+
+}
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const n7 = 10
+
+console.log(typeof n7);
+
+
+if (typeof n7 === "number") {
+  console.log("la variabile fornita è un numero")
+}
+
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -77,17 +126,18 @@ if (num4 === 8 || num5 === 8 || num4 + num5 == 8 || num4 - num5 == 8 || num5 - n
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
+
+//  ESERCIZIO 10
+//   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
+  if (val < 5) {
       console.log("Meno di 5");
+    } else if (val < 10) {
+      console.log("Meno di 10");
     } else {
       console.log("Uguale a 10 o maggiore");
     }
-*/
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
