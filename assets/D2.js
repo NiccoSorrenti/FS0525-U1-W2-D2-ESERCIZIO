@@ -151,6 +151,8 @@ const me = {
   skills: ['javascript', 'html', 'css'],
 }
 
+me.city = "Toronto"
+
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 12
@@ -158,21 +160,28 @@ const me = {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+delete me.lastName
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop()
+me.skills.splice(2, 1)
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const array = []
+array.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+array[9] = 100
+array.splice(9, 1, 100)
